@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(223, 220, 220);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container {
+    align-items: center;
+    margin-top: 200px;
+}
+
+.content {
+    padding: 30px;
+}
+
+form h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px 0;
+    
+}
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.area-lista ul {
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.tarefa-concluida {
+    text-decoration: line-through;
+}
+
